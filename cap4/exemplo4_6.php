@@ -8,12 +8,12 @@
 <body>
 <?php 
 $num = 5000;//variável global.
-function testa_escopo_1()
+function testaescopo_1()
 {
 	echo $GLOBALS['num'] ."<br>";
 	$GLOBALS['num']++;//Expressão que significa: $GLOBALS['num']=$GLOBALS['num']+1.
 }
-testa_escopo_1();//Imprime o valor de $GLOBALS['num']=5000, incrementa em 1 o seu valor e atualiza o valor da variável $num.
+testaescopo_1();//Imprime o valor de $GLOBALS['num']=5000, incrementa em 1 o seu valor e atualiza o valor da variável $num.
 echo $num ."<br>";//Quando a variável $num for invocada nesse ponto do programa já terá sido incrementada pela função testa_escopo-1.
 ?>
 </body>
