@@ -1,0 +1,5 @@
+c:\wamp64\www\desenvolvendo_websites_com_php\cap3\prog1.php
+c:\wamp64\www\desenvolvendo_websites_com_php\cap3\prog2.php
+c:\wamp64\www\desenvolvendo_websites_com_php\cap3\prog3.php
+c:\wamp64\www\desenvolvendo_websites_com_php\cap3\prog4.php
+c:\wamp64\www\desenvolvendo_websites_com_php\cap3\prog5.php
