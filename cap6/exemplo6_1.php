@@ -31,10 +31,10 @@ echo "A soma dos valores $valor1, $valor2 e $valor3 é igual a $soma <br>";
 $n1=10;
 $n2=20;
 $n3=30;
-soma_valores($n1, $n2, $n3);//Aqui a  função soma_valores() é invocada.
+soma_valores($n1, $n2, $n3);//Aqui a função soma_valores() é invocada para que seja realizada a soma dos valores $n1, $n2 e $n3 passados como parâmetros.
 echo "O programa segue seu fluxo normal a partir do ponto de chamada da função.<br>";
 soma_valores($n1, $n2, $n3);//Novamente a função soma_valores() sendo invocada.
-echo "Mais uma vez o programa segue seu fluxo normal a partir do ponto de chamada da função.<br>";
+echo "Mais uma vez o programa segue seu fluxo normal a partir do ponto de chamada da função pois não foi solicitado o return do resultado da operação realizada dentro da função.<br>";
 ?>
 </body>
 </html>
